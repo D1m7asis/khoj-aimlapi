@@ -11,6 +11,11 @@ Khoj is designed to be a personal AI, so one of our cornerstone principles is to
 
 Here's what to consider if you're using Khoj, whether self-hosted or on our cloud:
 1. Some of your relevant indexed data may be included as context when you chat with Khoj. This means that it may be sent to OpenAI, if you use one of the OpenAI models.
+
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
 1. We collect completely anonymized usage telemetry and send it to [PostHog](https://posthog.com/). This includes data like unique chat requests, unique search requests, unique requests to index data. Usage data is collected to help us understand how people are using Khoj, and to help us prioritize features.
     - We do not log your IP address, nor upload any of your personal data to PostHog.
     - You can see our telemetry aggregation code [here](https://github.com/khoj-ai/khoj/blob/master/src/khoj/routers/helpers.py#L71) and see our telemetry server [here](https://github.com/khoj-ai/khoj/blob/master/src/telemetry/telemetry.py).

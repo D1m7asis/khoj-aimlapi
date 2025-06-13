@@ -17,6 +17,11 @@ You can also click on the speaker icon next to any message to hear it out loud. 
 
 Voice chat will automatically be configured when you initialize the application. The default configuration will run locally. If you want to use the OpenAI whisper API for voice chat, you can set it up by following these steps:
 
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
+
 1. Setup your OpenAI API key. See instructions [here](/get-started/setup#add-chat-models).
 2. Create a new configuration at http://localhost:42110/server/admin/database/speechtotextmodeloptions/. We recommend the value `whisper-1` and model type `Openai`.
 

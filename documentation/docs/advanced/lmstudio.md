@@ -9,6 +9,10 @@ This is only helpful for self-hosted users. If you're using [Khoj Cloud](https:/
 
 :::info
 Khoj natively supports local LLMs [available on HuggingFace in GGUF format](https://huggingface.co/models?library=gguf). Using an OpenAI API proxy with Khoj maybe useful for ease of setup, trying new models or using commercial LLMs via API.
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
 :::
 
 [LM Studio](https://lmstudio.ai/) is a desktop app to chat with open-source LLMs on your local machine. LM Studio provides a neat interface for folks comfortable with a GUI.

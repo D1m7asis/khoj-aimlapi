@@ -30,6 +30,11 @@ You may want to configure this if you need better multi-lingual search, want to 
 
 You can use bi-encoder models downloaded locally [from Huggingface](https://huggingface.co/models?library=sentence-transformers), served via the [HuggingFace Inference API](https://endpoints.huggingface.co/), OpenAI API, Azure OpenAI API or any OpenAI Compatible API like Ollama, LiteLLM etc. Follow the steps below to configure your search model:
 
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
+
 1. Open the [SearchModelConfig](http://localhost:42110/server/admin/database/searchmodelconfig/) page on your Khoj admin panel.
 2. Hit the Plus button to add a new model config or click the id of an existing model config to edit it.
 3. Set the `biencoder` field to the name of the bi-encoder model supported [locally](https://huggingface.co/models?library=sentence-transformers) or via the API you configure.

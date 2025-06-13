@@ -5,6 +5,11 @@ This is only helpful for self-hosted users. If you're using [Khoj Cloud](https:/
 
 Khoj can use Google's Gemini and Anthropic's Claude family of AI models from [Vertex AI](https://cloud.google.com/vertex-ai) on Google Cloud. Explore Anthropic and Gemini AI models available on Vertex AI's [Model Garden](https://console.cloud.google.com/vertex-ai/model-garden).
 
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
+
 ## Setup
 1. Follow [these instructions](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude#before_you_begin) to use models on GCP Vertex AI.
 2. Create [Service Account](https://console.cloud.google.com/apis/credentials/serviceaccountkey) credentials.

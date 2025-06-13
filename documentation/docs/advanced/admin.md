@@ -44,6 +44,11 @@ For each AI Model API you [add](http://localhost:42110/server/admin/database/aim
 - `Api key`: Set to your [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://console.anthropic.com/account/keys) or [Gemini](https://aistudio.google.com/app/apikey) API keys.
 - `Name`: Give the configuration any friendly name like `OpenAI`, `Gemini`, `Anthropic`.
 - `Api base url`: Set the API base URL. This is only relevant to set if you're using another OpenAI-compatible proxy server like [Ollama](/advanced/ollama) or [LMStudio](/advanced/lmstudio).
+
+> AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
+>
+> App: https://aimlapi.com/app/?utm_source=khoj&utm_medium=github&utm_campaign=integration  
+> Docs: You can check provider docs at https://docs.aimlapi.com/?utm_source=khoj&utm_medium=github&utm_campaign=integration
   ![example configuration for ai model api](/img/example_openai_processor_config.png)
 
 ### Search Model Configs
